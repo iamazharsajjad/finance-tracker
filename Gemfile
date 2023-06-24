@@ -11,6 +11,7 @@ gem 'rails', '~> 6.0.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'devise'
+gem 'webpacker'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
@@ -38,6 +39,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'psych', '< 4'
+
 
 group :development, :test do
   gem 'sqlite3'
